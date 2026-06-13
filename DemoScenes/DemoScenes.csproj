@@ -1,0 +1,86 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\45.png" />
+    <None Remove="Resources\Add To Favorite.png" />
+    <None Remove="Resources\AJ_Moon_1.png" />
+    <None Remove="Resources\ball.jpg" />
+    <None Remove="Resources\ball2.jpg" />
+    <None Remove="Resources\ball3.bmp" />
+    <None Remove="Resources\ball4.png" />
+    <None Remove="Resources\blumts.png" />
+    <None Remove="Resources\check.png" />
+    <None Remove="Resources\checker4.jpg" />
+    <None Remove="Resources\checker4.png" />
+    <None Remove="Resources\cherry.jpg" />
+    <None Remove="Resources\Galaxy.png" />
+    <None Remove="Resources\greenoff1.png" />
+    <None Remove="Resources\greenoff11.png" />
+    <None Remove="Resources\greenon1.png" />
+    <None Remove="Resources\greenon11.png" />
+    <None Remove="Resources\mars.png" />
+    <None Remove="Resources\mayan_outline1.png" />
+    <None Remove="Resources\Moon1.png" />
+    <None Remove="Resources\Moon2.png" />
+    <None Remove="Resources\mts.png" />
+    <None Remove="Resources\palm.png" />
+    <None Remove="Resources\phar.png" />
+    <None Remove="Resources\Planets1.png" />
+    <None Remove="Resources\Plas7.png" />
+    <None Remove="Resources\Play.png" />
+    <None Remove="Resources\pspbrwse.jbf" />
+    <None Remove="Resources\pyramid.png" />
+    <None Remove="Resources\starlitdeception.mod" />
+    <None Remove="Resources\tile2.png" />
+    <None Remove="Resources\Transfer.png" />
+    <None Remove="Resources\zowee.png" />
+    <None Remove="Resources\ZPLAS.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\45.png" />
+    <EmbeddedResource Include="Resources\Add To Favorite.png" />
+    <EmbeddedResource Include="Resources\AJ_Moon_1.png" />
+    <EmbeddedResource Include="Resources\ball.jpg" />
+    <EmbeddedResource Include="Resources\ball2.jpg" />
+    <EmbeddedResource Include="Resources\ball3.bmp" />
+    <EmbeddedResource Include="Resources\ball4.png" />
+    <EmbeddedResource Include="Resources\blumts.png" />
+    <EmbeddedResource Include="Resources\check.png" />
+    <EmbeddedResource Include="Resources\checker4.jpg" />
+    <EmbeddedResource Include="Resources\checker4.png" />
+    <EmbeddedResource Include="Resources\cherry.jpg" />
+    <EmbeddedResource Include="Resources\Galaxy.png" />
+    <EmbeddedResource Include="Resources\greenoff1.png" />
+    <EmbeddedResource Include="Resources\greenoff11.png" />
+    <EmbeddedResource Include="Resources\greenon1.png" />
+    <EmbeddedResource Include="Resources\greenon11.png" />
+    <EmbeddedResource Include="Resources\mars.png" />
+    <EmbeddedResource Include="Resources\mayan_outline1.png" />
+    <EmbeddedResource Include="Resources\Moon1.png" />
+    <EmbeddedResource Include="Resources\Moon2.png" />
+    <EmbeddedResource Include="Resources\mts.png" />
+    <EmbeddedResource Include="Resources\palm.png" />
+    <EmbeddedResource Include="Resources\phar.png" />
+    <EmbeddedResource Include="Resources\Planets1.png" />
+    <EmbeddedResource Include="Resources\Plas7.png" />
+    <EmbeddedResource Include="Resources\Play.png" />
+    <EmbeddedResource Include="Resources\pspbrwse.jbf" />
+    <EmbeddedResource Include="Resources\pyramid.png" />
+    <EmbeddedResource Include="Resources\starlitdeception.mod" />
+    <EmbeddedResource Include="Resources\tile2.png" />
+    <EmbeddedResource Include="Resources\Transfer.png" />
+    <EmbeddedResource Include="Resources\zowee.png" />
+    <EmbeddedResource Include="Resources\ZPLAS.png" />
+  </ItemGroup>
+
+</Project>
